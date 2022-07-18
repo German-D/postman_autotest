@@ -26,5 +26,5 @@ pm.test("Body matches string Яндекс.Практикум", function () {
 
 pm.test("Response time is less than 50ms", function () {
     pm.expect(pm.response.responseTime).to.be.below(50);
-});
+})
 
